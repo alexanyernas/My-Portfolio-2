@@ -26,13 +26,13 @@
         <v-col cols="12" md="4" class="text-center text-md-right">
           <div class="social-icons">
             <a href="https://github.com/alegiannattasio" target="_blank" class="social-icon">
-              <v-icon>mdi-github</v-icon>
+              <v-icon aria-hidden="true">mdi-github</v-icon>
             </a>
             <a href="https://www.linkedin.com/in/alegiannattasio/" target="_blank" class="social-icon">
-              <v-icon>mdi-linkedin</v-icon>
+              <v-icon aria-hidden="true">mdi-linkedin</v-icon>
             </a>
             <a href="mailto:alegiannattasioxd@gmail.com" class="social-icon">
-              <v-icon>mdi-email</v-icon>
+              <v-icon aria-hidden="true">mdi-email</v-icon>
             </a>
           </div>
         </v-col>
@@ -45,7 +45,7 @@
       <v-row>
         <v-col cols="12" class="text-center">
           <p class="footer-message">
-            Hecho con <v-icon small color="#ff4081">mdi-heart</v-icon>
+            Hecho con <v-icon small color="#ff4081" aria-hidden="true">mdi-heart</v-icon>
           </p>
         </v-col>
       </v-row>

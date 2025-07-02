@@ -76,8 +76,9 @@
             icon
             @click="dialog = false"
             class="close-btn"
+            aria-label="Cerrar proyecto"
           >
-            <v-icon>mdi-close</v-icon>
+            <v-icon aria-hidden="true">mdi-close</v-icon>
           </v-btn>
         </v-card-actions>
         
@@ -121,8 +122,9 @@
             :disabled="currentImageIndex === 0"
             class="nav-btn"
             size="large"
+            aria-label="Anterior"
           >
-            <v-icon>mdi-chevron-left</v-icon>
+            <v-icon aria-hidden="true">mdi-chevron-left</v-icon>
           </v-btn>
           
           <div class="image-counter">
@@ -135,8 +137,9 @@
             :disabled="currentImageIndex === (currentProject?.imagesCount - 1)"
             class="nav-btn"
             size="large"
+            aria-label="Siguiente"
           >
-            <v-icon>mdi-chevron-right</v-icon>
+            <v-icon aria-hidden="true">mdi-chevron-right</v-icon>
           </v-btn>
         </div>
       </v-card>

@@ -25,7 +25,7 @@
             <!-- WhatsApp -->
             <a href="https://wa.me/+584120137644" target="_blank" class="contact-item">
               <div class="contact-icon whatsapp">
-                <v-icon color="white">mdi-whatsapp</v-icon>
+                <v-icon color="white" aria-hidden="true">mdi-whatsapp</v-icon>
               </div>
               <div class="contact-info">
                 <p class="contact-label">WhatsApp</p>
@@ -36,7 +36,7 @@
             <!-- Email -->
             <a href="mailto:alegiannattasioxd@gmail.com" class="contact-item">
               <div class="contact-icon email">
-                <v-icon color="white">mdi-email</v-icon>
+                <v-icon color="white" aria-hidden="true">mdi-email</v-icon>
               </div>
               <div class="contact-info">
                 <p class="contact-label">Correo electrónico</p>
@@ -47,7 +47,7 @@
             <!-- LinkedIn -->
             <a href="https://www.linkedin.com/in/alegiannattasio/" target="_blank" class="contact-item">
               <div class="contact-icon linkedin">
-                <v-icon color="white">mdi-linkedin</v-icon>
+                <v-icon color="white" aria-hidden="true">mdi-linkedin</v-icon>
               </div>
               <div class="contact-info">
                 <p class="contact-label">LinkedIn</p>
@@ -58,7 +58,7 @@
             <!-- GitHub -->
             <a href="https://github.com/alegiannattasio" target="_blank" class="contact-item">
               <div class="contact-icon github">
-                <v-icon color="white">mdi-github</v-icon>
+                <v-icon color="white" aria-hidden="true">mdi-github</v-icon>
               </div>
               <div class="contact-info">
                 <p class="contact-label">GitHub</p>

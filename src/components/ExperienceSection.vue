@@ -20,9 +20,9 @@
             </div>
           </div>
           <ul class="responsibilities">
-            <li><v-icon small color="#8c52ff">mdi-circle-small</v-icon> Mantenimiento de página web y redes sociales</li>
-            <li><v-icon small color="#8c52ff">mdi-circle-small</v-icon> Creación de contenido gráfico comercial</li>
-            <li><v-icon small color="#8c52ff">mdi-circle-small</v-icon> Diseños UI/UX para proyectos</li>
+            <li><v-icon small color="#8c52ff" aria-hidden="true">mdi-circle-small</v-icon> Mantenimiento de página web y redes sociales</li>
+            <li><v-icon small color="#8c52ff" aria-hidden="true">mdi-circle-small</v-icon> Creación de contenido gráfico comercial</li>
+            <li><v-icon small color="#8c52ff" aria-hidden="true">mdi-circle-small</v-icon> Diseños UI/UX para proyectos</li>
           </ul>
         </div>
 
@@ -36,9 +36,9 @@
             </div>
           </div>
           <ul class="responsibilities">
-            <li><v-icon small color="#8c52ff">mdi-circle-small</v-icon> Mantenimiento web y redes</li>
-            <li><v-icon small color="#8c52ff">mdi-circle-small</v-icon> Creación de banners y contenido</li>
-            <li><v-icon small color="#8c52ff">mdi-circle-small</v-icon> Diseño de interfaces</li>
+            <li><v-icon small color="#8c52ff" aria-hidden="true">mdi-circle-small</v-icon> Mantenimiento web y redes</li>
+            <li><v-icon small color="#8c52ff" aria-hidden="true">mdi-circle-small</v-icon> Creación de banners y contenido</li>
+            <li><v-icon small color="#8c52ff" aria-hidden="true">mdi-circle-small</v-icon> Diseño de interfaces</li>
           </ul>
         </div>
 
@@ -52,9 +52,9 @@
             </div>
           </div>
           <ul class="responsibilities">
-            <li><v-icon small color="#8c52ff">mdi-circle-small</v-icon> Diseño de contenido educativo</li>
-            <li><v-icon small color="#8c52ff">mdi-circle-small</v-icon> Dictado de cursos</li>
-            <li><v-icon small color="#8c52ff">mdi-circle-small</v-icon> Mantenimiento web</li>
+            <li><v-icon small color="#8c52ff" aria-hidden="true">mdi-circle-small</v-icon> Diseño de contenido educativo</li>
+            <li><v-icon small color="#8c52ff" aria-hidden="true">mdi-circle-small</v-icon> Dictado de cursos</li>
+            <li><v-icon small color="#8c52ff" aria-hidden="true">mdi-circle-small</v-icon> Mantenimiento web</li>
           </ul>
         </div>
 
@@ -68,8 +68,8 @@
             </div>
           </div>
           <ul class="responsibilities">
-            <li><v-icon small color="#8c52ff">mdi-circle-small</v-icon> Interacción Humano-Computador</li>
-            <li><v-icon small color="#8c52ff">mdi-circle-small</v-icon> Tópicos Avanzados de IHC</li>
+            <li><v-icon small color="#8c52ff" aria-hidden="true">mdi-circle-small</v-icon> Interacción Humano-Computador</li>
+            <li><v-icon small color="#8c52ff" aria-hidden="true">mdi-circle-small</v-icon> Tópicos Avanzados de IHC</li>
           </ul>
         </div>
       </v-col>

@@ -59,7 +59,7 @@
     
     <!-- Flecha de scroll down -->
     <div class="scroll-down" @click="scrollToSection('about')">
-      <v-icon icon="mdi-chevron-double-down" size="x-large" color="#8c52ff"></v-icon>
+      <v-icon icon="mdi-chevron-double-down" size="x-large" color="#8c52ff" aria-hidden="true"></v-icon>
     </div>
   </v-container>
 </template>

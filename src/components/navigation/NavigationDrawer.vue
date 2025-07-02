@@ -27,7 +27,7 @@
       <v-card class="mobile-menu-card">
         <div class="menu-close-btn">
           <v-btn icon @click="menuMobileOpen = false" aria-label="Cerrar menú">
-            <v-icon size="28">mdi-close</v-icon>
+            <v-icon size="28" aria-hidden="true">mdi-close</v-icon>
           </v-btn>
         </div>
 
@@ -38,7 +38,7 @@
             class="menu-link"
             @click="handleMobileClick(item.value)"
           >
-            <v-icon size="28" class="menu-link-icon">{{ item.icon }}</v-icon>
+            <v-icon size="28" class="menu-link-icon" aria-hidden="true">{{ item.icon }}</v-icon>
             <span class="menu-link-text">{{ item.title }}</span>
           </div>
         </div>
@@ -51,7 +51,7 @@
             @click="handleOpenUrl(item.url)"
             class="footer-icon-btn"
           >
-            <v-icon size="26">{{ item.icon }}</v-icon>
+            <v-icon size="26" aria-hidden="true">{{ item.icon }}</v-icon>
           </v-btn>
         </div>
       </v-card>
@@ -106,7 +106,7 @@
           @click="scrollToSection(item.value)"
         >
           <template v-slot:prepend>
-            <v-icon :icon="item?.icon" class="menu-icon"></v-icon>
+            <v-icon :icon="item?.icon" class="menu-icon" aria-hidden="true"></v-icon>
           </template>
           
           <template v-if="!rail" v-slot:title>
@@ -124,7 +124,7 @@
             class="social-bubble"
             @click="handleOpenUrl(item?.url)"
           >
-            <v-icon :icon="item?.icon" size="large"></v-icon>
+            <v-icon :icon="item?.icon" size="large" aria-hidden="true"></v-icon>
           </div>
         </div>
       </template>

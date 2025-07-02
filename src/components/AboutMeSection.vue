@@ -29,12 +29,12 @@
 
           <div class="experience-badges">
             <div class="experience-badge">
-              <v-icon color="white">mdi-star</v-icon>
+              <v-icon color="white" aria-hidden="true">mdi-star</v-icon>
               <span>4+ años de experiencia</span>
             </div>
             
             <div class="education-badge">
-              <v-icon>mdi-human-male-board</v-icon>
+              <v-icon aria-hidden="true">mdi-human-male-board</v-icon>
               <span>Preparadora universitaria</span>
             </div>
           </div>
@@ -61,7 +61,7 @@
           <h3 class="skills-title">Habilidades Blandas</h3>
           <div class="soft-skills-container">
             <div v-for="(skill, index) in softSkills" :key="index" class="soft-skill-item">
-              <v-icon class="soft-skill-icon">mdi-check-circle</v-icon>
+              <v-icon class="soft-skill-icon" aria-hidden="true">mdi-check-circle</v-icon>
               <span>{{ skill }}</span>
             </div>
           </div>
