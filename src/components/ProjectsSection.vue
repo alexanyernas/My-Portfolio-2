@@ -99,9 +99,10 @@
           >
             <div class="carousel-image-container">
               <v-img
-                :src="`/projects/${currentProject?.folder}/${n}.png`"
+                :src="`/projects/${currentProject?.folder}/${n}.webp`"
                 contain
                 class="carousel-image"
+                :alt="currentProject?.folder"
               >
                 <template v-slot:placeholder>
                   <v-row class="fill-height ma-0" align="center" justify="center">
@@ -191,6 +192,6 @@ const prevImage = () => {
 };
 
 const getProjectThumbnail = (project) => {
-  return `/projects/${project.folder}/1.png`;
+  return `/projects/${project.folder}/1.webp`;
 };
 </script>

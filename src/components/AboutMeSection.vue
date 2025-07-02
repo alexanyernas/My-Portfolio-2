@@ -46,7 +46,7 @@
           <div class="skills-grid">
             <div v-for="(skill, index) in technicalSkills" :key="index" class="skill-item">
               <div class="skill-icon">
-                <v-img :src="getSkillIcon(skill)" height="60" contain />
+                <v-img :src="getSkillIcon(skill)" height="60" :alt="skill" contain />
               </div>
               <span class="skill-name">{{ skill }}</span>
               <div class="skill-bar">
