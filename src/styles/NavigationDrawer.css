@@ -1,0 +1,237 @@
+/* Estilos existentes se mantienen igual */
+.custom-drawer {
+  background: rgba(255, 255, 255, 0.9) !important;
+  backdrop-filter: blur(10px);
+  border-right: none;
+  transition: all 0.3s ease;
+}
+
+.custom-drawer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: linear-gradient(to bottom, #8c52ff, #c874ff);
+}
+
+.drawer-header {
+  background: linear-gradient(135deg, #8c52ff 0%, #b07dff 100%);
+  padding: 8px 0;
+  transition: all 0.3s ease;
+}
+
+.drawer-header.rail-mode {
+  background: transparent;
+  padding: 8px 0;
+}
+
+.header-content :deep(.v-list-item__prepend) img {
+  border: 2px solid white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.header-content :deep(.v-list-item-title),
+.header-content :deep(.v-list-item-subtitle) {
+  color: white !important;
+}
+
+.header-content.rail-mode :deep(.v-list-item-title),
+.header-content.rail-mode :deep(.v-list-item-subtitle) {
+  display: none;
+}
+
+.toggle-btn {
+  color: white !important;
+}
+
+.toggle-btn:hover {
+  transform: scale(1.1);
+}
+
+.menu-items {
+  padding: 12px 8px;
+}
+
+.menu-item {
+  border-radius: 12px;
+  margin: 4px 0;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.menu-item:hover {
+  background: rgba(140, 82, 255, 0.1) !important;
+}
+
+.active-menu-item {
+  background: #fff !important;
+  position: relative;
+}
+
+.active-menu-item::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 3px;
+  background: #8c52ff;
+  border-radius: 0 3px 3px 0;
+}
+
+.menu-item:hover .menu-icon,
+.active-menu-item .menu-icon {
+  color: #8c52ff !important;
+  transform: scale(1.05);
+}
+
+.menu-item:hover .menu-text,
+.active-menu-item .menu-text {
+  color: #8c52ff !important;
+  font-weight: 500;
+}
+
+.menu-icon {
+  color: #666;
+  transition: all 0.3s ease;
+}
+
+.menu-text {
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.social-container {
+  padding: 16px;
+  display: flex;
+  justify-content: space-around;
+  transition: all 0.3s ease;
+}
+
+.social-container.rail-social {
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 8px;
+}
+
+.social-bubble {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.social-bubble:hover {
+  background: rgba(140, 82, 255, 0.1);
+}
+
+.social-bubble:hover .v-icon {
+  color: #8c52ff;
+}
+
+.social-bubble .v-icon {
+  color: #666;
+  transition: all 0.3s ease;
+}
+
+.v-app-bar-nav-icon {
+  color: #8c52ff;
+}
+
+.mobile-menu-dialog .v-overlay__content {
+  background: rgba(10, 10, 10, 0.85);
+  backdrop-filter: blur(16px);
+}
+
+.mobile-menu-card {
+  background: transparent !important;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  padding: 24px;
+}
+
+.menu-close-btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu-close-btn .v-btn {
+  transition: transform 0.3s ease;
+}
+
+.menu-close-btn .v-btn:hover {
+  transform: scale(1.2);
+}
+
+.mobile-menu-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  margin-top: 40px;
+}
+
+.menu-link {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.menu-link:hover {
+  color: #c874ff;
+  transform: translateX(6px);
+}
+
+.menu-link-icon {
+  color: #c874ff;
+  transition: transform 0.3s ease;
+}
+
+.menu-link:hover .menu-link-icon {
+  transform: scale(1.2);
+}
+
+.menu-link-text {
+  transition: color 0.3s ease;
+}
+
+.mobile-menu-footer {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding-bottom: 16px;
+}
+
+.footer-icon-btn {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.footer-icon-btn:hover {
+  background: #c874ff;
+  transform: scale(1.2);
+}
+
+.footer-icon-btn .v-icon {
+  color: white !important;
+}

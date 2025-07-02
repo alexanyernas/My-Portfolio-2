@@ -1,0 +1,122 @@
+.minimalist-experience {
+  background: #f9f5ff;
+  padding: 100px 24px;
+  position: relative;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2d2d2d;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+.title-divider {
+  height: 3px;
+  width: 80px;
+  background: linear-gradient(to right, #8c52ff, #c874ff);
+  margin: 0 auto 20px;
+  border-radius: 3px;
+}
+
+.section-subtitle {
+  font-size: 1.1rem;
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Diseño de cada experiencia */
+.experience-item {
+  padding: 30px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.experience-item:last-child {
+  border-bottom: none;
+}
+
+.experience-item:hover {
+  padding-left: 10px;
+  border-left: 3px solid #8c52ff;
+}
+
+.experience-header {
+  margin-bottom: 15px;
+}
+
+.job-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #2d2d2d;
+  margin-bottom: 5px;
+}
+
+.company-period {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.company {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #8c52ff;
+}
+
+.period {
+  font-size: 0.95rem;
+  color: #666;
+  font-style: italic;
+}
+
+.responsibilities {
+  list-style: none;
+  padding-left: 0;
+}
+
+.responsibilities li {
+  margin-bottom: 8px;
+  font-size: 1rem;
+  color: #444;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Responsive */
+@media (max-width: 960px) {
+  .section-title {
+    font-size: 2.2rem;
+  }
+  
+  .job-title {
+    font-size: 1.2rem;
+  }
+  
+  .company {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .minimalist-experience {
+    padding: 80px 16px;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+  }
+  
+  .company-period {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+  
+  .experience-item:hover {
+    padding-left: 5px;
+  }
+}
