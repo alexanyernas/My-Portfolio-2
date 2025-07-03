@@ -14,7 +14,7 @@
       <div class="flex-grow-1"></div>
 
       <!-- Ícono hamburguesa a la derecha -->
-      <v-app-bar-nav-icon @click="menuMobileOpen = true" />
+      <v-app-bar-nav-icon @click="menuMobileOpen = true" aria-label="Menú" />
     </v-app-bar>
 
     <v-dialog

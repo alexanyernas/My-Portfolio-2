@@ -27,12 +27,15 @@
           <div class="social-icons">
             <a href="https://github.com/alegiannattasio" target="_blank" class="social-icon">
               <v-icon aria-hidden="true">mdi-github</v-icon>
+              <span class="ml-1 text-caption">GitHub</span>
             </a>
             <a href="https://www.linkedin.com/in/alegiannattasio/" target="_blank" class="social-icon">
               <v-icon aria-hidden="true">mdi-linkedin</v-icon>
+              <span class="ml-1 text-caption">LinkedIn</span>
             </a>
             <a href="mailto:alegiannattasioxd@gmail.com" class="social-icon">
               <v-icon aria-hidden="true">mdi-email</v-icon>
+              <span class="ml-1 text-caption">Correo electrónico</span>
             </a>
           </div>
         </v-col>
