@@ -15,7 +15,7 @@
           <div class="experience-header">
             <h3 class="job-title">Líder de Marketing - Diseñador UI/UX</h3>
             <div class="company-period">
-              <span class="company">PAiC BD</span>
+              <span class="company">PAiCore Technologies</span>
               <span class="period">2022 - Actualidad</span>
             </div>
           </div>
@@ -68,8 +68,24 @@
             </div>
           </div>
           <ul class="responsibilities">
+            <li><v-icon small color="#8c52ff" aria-hidden="true">mdi-circle-small</v-icon> Introducción a la Informática</li>
             <li><v-icon small color="#8c52ff" aria-hidden="true">mdi-circle-small</v-icon> Interacción Humano-Computador</li>
             <li><v-icon small color="#8c52ff" aria-hidden="true">mdi-circle-small</v-icon> Tópicos Avanzados de IHC</li>
+          </ul>
+        </div>
+
+        <!-- Experiencia 5 -->
+        <div class="experience-item">
+          <div class="experience-header">
+            <h3 class="job-title">Ventas</h3>
+            <div class="company-period">
+              <span class="company">Mipto Tech</span>
+              <span class="period">2019</span>
+            </div>
+          </div>
+          <ul class="responsibilities">
+            <li><v-icon small color="#8c52ff" aria-hidden="true">mdi-circle-small</v-icon> Marketing digital</li>
+            <li><v-icon small color="#8c52ff" aria-hidden="true">mdi-circle-small</v-icon> Gestión de plataformas tales como Workana, Fiverr y Freelancer</li>
           </ul>
         </div>
       </v-col>
